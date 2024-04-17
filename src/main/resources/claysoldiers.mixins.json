@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "rasvhw.claysoldiers.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "EntityAccessor",
+      "MinecraftMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "claysoldiers",
+  "version": "2.0.0-7.1",
+
+  "name": "Clay Soldiers",
+  "description": "Port of Clay Soldiers to BTA!. Add clay soldiers that fight for their color.",
+  "authors": [
+    "ClickNin, Useless, RasVHW"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"rasvhw.claysoldiers.ClaySoldiers"
+    ],
+		"beforeGameStart": [
+			"rasvhw.claysoldiers.ClaySoldiers"
+		],
+		"afterGameStart": [
+			"rasvhw.claysoldiers.ClaySoldiers"
+		],
+		"recipesReady": [
+			"rasvhw.claysoldiers.ClaySoldiers"
+		]
+	},
+  "mixins": [
+      "claysoldiers.mixins.json"
+  ],
+
+	"accessWidener": "claysoldiers.accesswidener",
+
+  "depends": {
+		"minecraft": "7.1",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
